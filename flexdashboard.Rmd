@@ -25,7 +25,7 @@ clean_ny_noaa =
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### minimum temperature of all recorded days from selected weather stations
+### Minimum temperature of all recorded days from selected weather stations
 
 ```{r}
 clean_ny_noaa %>%
@@ -38,10 +38,11 @@ clean_ny_noaa %>%
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### The distribution of maximum temperature of all recorded days from selected weather stations
 
 ```{r}
-
+clean_ny_noaa %>% 
+  plot_ly(x = ~id, y = ~tmax, color = ~id, type = "box", colors = "viridis")
 ```
 
 ### Chart C
