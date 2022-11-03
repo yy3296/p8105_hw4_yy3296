@@ -1,0 +1,14 @@
+---
+title: "Homework 4 Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme : cerulean
+---
+
+# Welcome to Yuze's Website
+
+### A brief introductory
+
+I am a graduate student in Columbia University, and my major is MS bio- statistics. I got bachelor degree in University of California, Davis, and my major during undergraduate are applied math and economics. 
