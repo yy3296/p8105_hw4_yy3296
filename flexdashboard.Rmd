@@ -45,9 +45,13 @@ clean_ny_noaa %>%
   plot_ly(x = ~id, y = ~tmax, color = ~id, type = "box", colors = "viridis")
 ```
 
-### Chart C
+### Snowfall (mm) for each year of all recorded days from selected weather stations
 
 ```{r}
-
+clean_ny_noaa %>% 
+  separate(date, into = c("year", "month", "day"), sep = "-") %>%
+  drop_na(snow) %>% 
+  count(year) %>%
+  plot_ly(x = ~year, y = ~n, color = ~year, type = "bar", colors = "viridis")
 ```
 
