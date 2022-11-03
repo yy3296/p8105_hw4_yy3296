@@ -25,10 +25,14 @@ clean_ny_noaa =
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### minimum temperature of all recorded days from selected weather stations
 
 ```{r}
-
+clean_ny_noaa %>%
+  mutate(text_label = str_c("minimum temperature is ", tmin)) %>% 
+  plot_ly(
+    x = ~date, y = ~tmin, type = "scatter", mode = "markers",
+    color = ~id, text = ~text_label, alpha = 0.5)
 ```
 
 Column {data-width=350}
