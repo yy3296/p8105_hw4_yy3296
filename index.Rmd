@@ -12,3 +12,7 @@ output:
 ### A brief introductory
 
 I am a graduate student in Columbia University, and my major is MS bio- statistics. I got bachelor degree in University of California, Davis, and my major during undergraduate are applied math and economics. 
+
+# Some navigation links
+
+My Academic and professional experience : [About me](about.html)

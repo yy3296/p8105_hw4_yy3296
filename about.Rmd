@@ -1,0 +1,45 @@
+---
+title: "About me"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme : cerulean
+---
+
+## Academic experience
+
+### University of California, Davis 	                                                                                                       
+B.A. in Economics, B.S. in Applied Math (double majors)   
+
+  •	Relevant Coursework:  Computers in Technology, Real Analysis, Probability, Numerical Analysis, Calculus, Combinatorics, Stochastic Processes, Engineering Prob Solving, Ordinary Diff Equations, Modern Algebra, Applied Stat for Bio Sci, Elementary Statistics, Vector Analysis, Linear Algebra, Linear Algebra Comp Lab, Intro to Programming, Intro Abstract Math, Differential Equations, Econometrics
+  
+  •	Awards: Dean’s Honors List (Fall 2018)
+  
+## Professional experience
+
+### Industrial and Commercial Bank of China (Shandong Province Headquarter)
+
+  •	Collected and retrieved user data and user activation data from an internal database and performed data augmentation to obtain a larger training set using SQL.
+  
+  •	Used Python pandas and scikit-learn for preprocessing raw data and producing user-level features and activation-level features.
+  
+  •	Built a predictive model with random forest in scikit-learn and boosting tree in XGBoost for predicting the probability of users signing up for the card service.  
+  
+  •	Grid-searched model level hyperparameters including tree depth, number of trees, and learning rate through cross validation.
+  
+  •	Extracted feature importance from the trained model and visualized confusion matrix using Seaborn.
+  
+  •	Final model achieved AUC of 0.93 and helped increase the number of new users acquired through telemarketing channels by 20%.
+
+### Alibaba Tianchi E-commerce Recommendation Algorithm Competition               
+
+  •	Designed the recall module for the recommendation system autonomously, which utilizes the user representation of new users and the collaborative filtering system with time attenuation behaviors for old users.
+  
+  •	Generated p-value hypothesis assessment analysis in order to substantiate the negative influence of the long tail problem. Moreover, creatively optimized the collaborative filtering by escalating the weight with the Wilson CTR and CVR.
+  
+  •	Conducted a more detailed interest session to split user behavior, to balance diversity as well as click-through rate. This resulted in more robust behavior correlation results that improved the recall rate by 13%.
+  
+  •	Added context characteristics from the recall system into the ultimate DNN model to help cross the features, which represents the radical significance of the current goods to users' behavioral habits, increasing the AUC by 5.5%.
+
+
