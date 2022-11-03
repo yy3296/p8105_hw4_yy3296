@@ -16,3 +16,5 @@ I am a graduate student in Columbia University, and my major is MS bio- statisti
 # Some navigation links
 
 My Academic and professional experience : [About me](about.html)
+
+flexdashboard : [Flexdashboard](flexdashboard.html)
